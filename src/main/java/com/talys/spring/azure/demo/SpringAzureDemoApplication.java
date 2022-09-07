@@ -11,7 +11,7 @@ public class SpringAzureDemoApplication {
 
 	@GetMapping(path = "/message")
 	public String message(){
-		return "hello";
+		return "hello this is for second commit pour tester le déploiement";
 	}
 
 	public static void main(String[] args) {
